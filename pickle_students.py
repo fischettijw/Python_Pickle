@@ -44,8 +44,11 @@ miguel_unpickle.print_student_info()
 
 print("*** Write Pickle File ***")
 joseph.student_to_pickle_file('joseph.pkl')
+miguel.student_to_pickle_file('miguel.pkl')
 print('-'*20)
 
 print("*** Read Pickle File ***")
-joe = Student.student_from_pickle_file('joseph.pkl')
-joe.print_student_info()
+joeF = Student.student_from_pickle_file('joseph.pkl')
+joeF.print_student_info()
+miguelS = Student.student_from_pickle_file('miguel.pkl')
+miguelS.print_student_info()
