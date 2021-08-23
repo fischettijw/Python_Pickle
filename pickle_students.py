@@ -1,3 +1,6 @@
+# https://www.youtube.com/watch?v=qt15PnF8x-M
+# https://www.youtube.com/watch?v=MpuOuZKWUWw&t=72s
+
 from Student_Class import *
 import pickle
 import os
