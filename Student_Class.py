@@ -26,7 +26,7 @@ class Student:
         print('Grades:')
         for subject, grade in self.grades.items():
             print(f'   {subject}: {grade}')
-        print('-'*20)
+        print('-'*50)
 
     def student_to_pickle_string(self):
         return pickle.dumps(self)
